@@ -13,12 +13,35 @@
       crossorigin="anonymous"
     />
 
-    <title>Hello, world!</title>
+    <title>Phone Searcher</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <h1 class="text-center shadow-lg p-2 mt-3 bg-warning">
+      Search for Phone Details
+    </h1>
 
-    <!-- Optional JavaScript; choose one of the two! -->
+    <div class="container-fluid mt-4 w-50">
+      <div class="input-group mb-3">
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Enter Phone's Name"
+          aria-label="Recipient's username"
+          aria-describedby="basic-addon2"
+        />
+        <span class="ms-2" id="basic-addon2"
+          ><button type="submit" class="btn btn-outline-success">
+            Search
+          </button></span
+        >
+      </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script
