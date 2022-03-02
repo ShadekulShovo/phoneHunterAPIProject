@@ -44,3 +44,12 @@ const displaySearchResult = (data) => {
     searchResult.appendChild(div);
   });
 };
+
+const loadPhoneName = (id) => {
+  const url = `https://openapi.programming-hero.com/api/phone/${id}`;
+  console.log(url);
+
+  fetch(url)
+    .then((response) => response.json())
+    .then((data) => displayphoneDetail(data));
+};
