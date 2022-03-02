@@ -119,10 +119,6 @@ const displayphoneDetail = (phone) => {
                     <br><span class="fw-bold">NFC : </span> ${
                       phone.data.others.NFC
                     }
-                  
-                    
-                    
-                    
                     </p>
                     
                     
